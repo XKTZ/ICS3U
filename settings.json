@@ -1,0 +1,7 @@
+{
+	"mainPath": "main.Main",
+	"srcPath": "./src/",
+	"libPath": "./lib/",
+	"binPath": "./bin/",
+	"resourcePath": "./res/"
+}
