@@ -44,6 +44,7 @@ public class CourseConfigure {
         }
         try {
             Class<Runnable> clazz = (Class<Runnable>) Class.forName(getClassNameRunning());
+            System.out.println(getClassNameRunning());
             return clazz.getDeclaredConstructor().newInstance();
         } catch (Exception e) {
             err("Exception in initiallizing class", e.getMessage());

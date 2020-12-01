@@ -5,7 +5,7 @@ import template.Homework;
 public class Homework1 extends Homework  {
     @Override
     public void run() {
-        ques1();
+        ques2();
     }
 
     private void ques1() {
@@ -101,8 +101,8 @@ public class Homework1 extends Homework  {
     }
 
     private void ques12() {
-        int a = nextInt(a);
-        int b = nextInt(b);
+        int a = nextInt("a: ");
+        int b = nextInt("b: ");
         println(pow(a, b));
     }
 
