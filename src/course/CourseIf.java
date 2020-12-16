@@ -6,7 +6,7 @@ import template.Course;
 /**
  * About "if" statement
  **/
-public class Course4 extends Course{
+public class CourseIf extends Course{
 	
 	Console console = new Console();
 	
@@ -24,8 +24,8 @@ public class Course4 extends Course{
 		println("(v) calculate the volume of a sphere?");
 		println("(s) calculate the surface area of a sphere?");
 		
-		strMenu = con.readLine();
-		charMenu = strMenu.charAt(0);
+		strMenu = readLine();
+		chrMenu = strMenu.charAt(0);
 		
 		if (chrMenu == 'c') {
 			println("You have chosen to calculate circumference");
@@ -54,7 +54,7 @@ public class Course4 extends Course{
 		strPart = strFavMovie.substring(0, 4);
 		println("part of this movie is:", strPart);
 		
-		if (strPart.equals("star") {
+		if (strPart.equals("star")) {
 			println("You are so chilll, Can I be yoru friend?");
 		} else {
 			println("You are boring");

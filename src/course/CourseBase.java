@@ -2,7 +2,7 @@ package course;
 
 import template.Course;
 
-public class Course3 extends Course {
+public class CourseBase extends Course {
     @Override
     public void run() {
         basic4();

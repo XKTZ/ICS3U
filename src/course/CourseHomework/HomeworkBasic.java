@@ -1,8 +1,8 @@
 package course.CourseHomework;
 
-import template.Homework;
+import template.CourseClassFormat;
 
-public class Homework1 extends Homework  {
+public class HomeworkBasic extends CourseClassFormat  {
     @Override
     public void run() {
         ques2();
