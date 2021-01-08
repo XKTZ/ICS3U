@@ -2,7 +2,7 @@ package template;
 import arc.*;
 
 public abstract class CourseClassFormat implements ICourse {
-	private Console console = new Console();
+	protected Console console = new Console();
 	
     protected String read() {
         return console.readLine();
